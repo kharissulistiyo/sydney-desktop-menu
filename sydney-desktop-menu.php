@@ -1,24 +1,4 @@
 <?php
-/**
- * Sydney Desktop Menu
- *
- * @package     Sydney Desktop Menu
- * @author      kharisblank
- * @copyright   2020 kharisblank
- * @license     GPL-2.0+
- *
- * @sy-desktop-menu
- * Plugin Name: Sydney Desktop Menu
- * Plugin URI:  https://easyfixwp.com/
- * Description: This plugin enables Sydney WordPress theme's desktop menu style on smaller screen. Made specifically for Sydney theme.
- * Version:     0.0.6
- * Author:      kharisblank
- * Author URI:  https://easyfixwp.com
- * Text Domain: sy-desktop-menu
- * License:     GPL-2.0+
- * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
- *
- */
 
 // Disallow direct access to file
 defined( 'ABSPATH' ) or die( __('Not Authorized!', 'sy-desktop-menu') );
@@ -55,7 +35,7 @@ if ( !class_exists('SY_Desktop_Menu') ) :
     function main_navigation() {
       ob_start();
       ?>
-      <nav id="mainnav2" class="mainnav" role="navigation">
+      <nav id="mainnav2" class="mainnavx" role="navigation">
         <?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb' => 'sydney_menu_fallback' ) ); ?>
       </nav><!-- #site-navigation -->
       <?php
