@@ -1,4 +1,24 @@
 <?php
+/**
+ * Sydney Desktop Menu
+ *
+ * @package     Sydney Desktop Menu
+ * @author      kharisblank
+ * @copyright   2020 kharisblank
+ * @license     GPL-2.0+
+ *
+ * @sy-desktop-menu
+ * Plugin Name: Sydney Desktop Menu
+ * Plugin URI:  https://easyfixwp.com/
+ * Description: This plugin enables Sydney WordPress theme's desktop menu style on smaller screen. Made specifically for Sydney theme.
+ * Version:     0.0.6
+ * Author:      kharisblank
+ * Author URI:  https://easyfixwp.com
+ * Text Domain: sy-desktop-menu
+ * License:     GPL-2.0+
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ *
+ */
 
 // Disallow direct access to file
 defined( 'ABSPATH' ) or die( __('Not Authorized!', 'sy-desktop-menu') );
